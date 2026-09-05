@@ -1,0 +1,26 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Compiled object files
+*.obj
+*.o
+
+# CMake generated files and caches
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeConfigureLog.yaml
+TargetDirectories.txt
+**/CMake*.cmake
+
+# Ninja build files and logs
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# Build directories (if building out-of-source, e.g., build/)
+build/
+bin/
