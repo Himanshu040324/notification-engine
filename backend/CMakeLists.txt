@@ -11,5 +11,5 @@ add_executable(notification_engine
 )
 
 target_include_directories(notification_engine PRIVATE
-    include/notification
+    include
 )

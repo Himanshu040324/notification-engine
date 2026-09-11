@@ -1,6 +1,6 @@
-#include "SimpleNotification.h"
+#include "notification/SimpleNotification.h"
 
-SimpleNotification::SimpleNotification(const std::string &content)
+SimpleNotification::SimpleNotification(const std::string& content)
     : content(content)
 {
 }
